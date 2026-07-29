@@ -1,0 +1,44 @@
+name: Weave
+on:
+  schedule:
+    - cron: '0 10-23 * * *'   # 06:00–19:00 America/New_York (EDT). Cron is UTC.
+  workflow_dispatch:
+concurrency:
+  group: loom
+  cancel-in-progress: false
+jobs:
+  weave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Weave rows
+        run: |
+          # The pattern needs to run on the loom branch
+          # Configure Git
+          git config user.name "Penelope"
+          git config user.email "${{ secrets.LOOM_TOKEN != '' && 'madil786110@users.noreply.github.com' || 'github-actions[bot]@users.noreply.github.com' }}"
+          
+          # Fetch and checkout loom
+          git fetch origin loom:loom
+          
+          # Compute day and generate SVG
+          DAY=$(node day.js)
+          node loom.js --day $DAY > loom.svg
+          ROWS=$(node loom.js --day $DAY --count-only)
+          
+          # Switch to loom branch and commit the new SVG
+          git checkout loom
+          # Copy the generated svg into the working tree
+          git add loom.svg
+          git commit -m "Woven: reached $ROWS rows" || echo "No changes to commit"
+          
+      - name: Push
+        run: |
+          if [ -n "${{ secrets.LOOM_TOKEN }}" ]; then
+            git remote set-url origin https://x-access-token:${{ secrets.LOOM_TOKEN }}@github.com/${{ github.repository }}.git
+          fi
+          git push origin loom

@@ -1,0 +1,30 @@
+name: Unweave
+on:
+  schedule:
+    - cron: '0 3 * * *'       # 23:00 America/New_York (EDT)
+  workflow_dispatch:
+jobs:
+  unweave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.LOOM_TOKEN || github.token }}
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Unweave
+        run: |
+          git config user.name "Penelope"
+          git config user.email "${{ secrets.LOOM_TOKEN != '' && 'madil786110@users.noreply.github.com' || 'github-actions[bot]@users.noreply.github.com' }}"
+          
+          DAY=$(node day.js)
+          ROWS=$(node loom.js --day $DAY --count-only)
+          
+          git push --force origin refs/tags/warp:refs/heads/loom
+          
+          echo "Night $DAY — $ROWS rows unwoven. Suitors still waiting." >> CHRONICLE.md
+          
+          git add CHRONICLE.md
+          git commit -m "Night $DAY" || echo "No changes to commit"
+          git push origin main
