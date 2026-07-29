@@ -27,12 +27,13 @@ jobs:
           
           # Compute day and generate SVG
           DAY=$(node day.js)
-          node loom.js --day $DAY > loom.svg
+          node loom.js --day $DAY > /tmp/loom.svg
           ROWS=$(node loom.js --day $DAY --count-only)
           
           # Switch to loom branch and commit the new SVG
           git checkout loom
           # Copy the generated svg into the working tree
+          cp /tmp/loom.svg loom.svg
           git add loom.svg
           git commit -m "Woven: reached $ROWS rows" || echo "No changes to commit"
           
