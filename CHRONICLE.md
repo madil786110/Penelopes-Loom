@@ -5,3 +5,4 @@ Night 3 — 21 rows unwoven. Suitors still waiting.
 Night 4 — 23 rows unwoven. Suitors still waiting.
 Night 5 — 20 rows unwoven. Suitors still waiting.
 Night 6 — 22 rows unwoven. Suitors still waiting.
+Night 7 — 24 rows unwoven. Suitors still waiting.
