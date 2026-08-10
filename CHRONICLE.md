@@ -12,3 +12,4 @@ Night 10 — 20 rows unwoven. Suitors still waiting.
 Night 11 — 308 rows unwoven. Suitors still waiting.
 Night 12 — 336 rows unwoven. Suitors still waiting.
 Night 13 — 294 rows unwoven. Suitors still waiting.
+Night 14 — 322 rows unwoven. Suitors still waiting.
