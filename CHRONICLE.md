@@ -18,3 +18,4 @@ Night 16 — 308 rows unwoven. Suitors still waiting.
 Night 17 — 336 rows unwoven. Suitors still waiting.
 Night 18 — 294 rows unwoven. Suitors still waiting.
 Night 19 — 322 rows unwoven. Suitors still waiting.
+Night 20 — 280 rows unwoven. Suitors still waiting.
