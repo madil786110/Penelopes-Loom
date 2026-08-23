@@ -25,3 +25,4 @@ Night 23 — 294 rows unwoven. Suitors still waiting.
 Night 24 — 322 rows unwoven. Suitors still waiting.
 Night 25 — 280 rows unwoven. Suitors still waiting.
 Night 26 — 308 rows unwoven. Suitors still waiting.
+Night 27 — 336 rows unwoven. Suitors still waiting.
