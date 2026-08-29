@@ -31,3 +31,4 @@ Night 29 — 322 rows unwoven. Suitors still waiting.
 Night 30 — 280 rows unwoven. Suitors still waiting.
 Night 31 — 110 rows unwoven. Suitors still waiting.
 Night 32 — 144 rows unwoven. Suitors still waiting.
+Night 33 — 21 rows unwoven. Suitors still waiting.
