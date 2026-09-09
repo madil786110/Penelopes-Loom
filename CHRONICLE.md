@@ -42,3 +42,4 @@ Night 40 — 20 rows unwoven. Suitors still waiting.
 Night 41 — 22 rows unwoven. Suitors still waiting.
 Night 42 — 24 rows unwoven. Suitors still waiting.
 Night 43 — 21 rows unwoven. Suitors still waiting.
+Night 44 — 23 rows unwoven. Suitors still waiting.
