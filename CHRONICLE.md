@@ -48,3 +48,4 @@ Night 46 — 22 rows unwoven. Suitors still waiting.
 Night 47 — 24 rows unwoven. Suitors still waiting.
 Night 48 — 21 rows unwoven. Suitors still waiting.
 Night 49 — 23 rows unwoven. Suitors still waiting.
+Night 50 — 20 rows unwoven. Suitors still waiting.
