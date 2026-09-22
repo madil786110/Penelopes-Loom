@@ -55,3 +55,4 @@ Night 53 — 21 rows unwoven. Suitors still waiting.
 Night 54 — 23 rows unwoven. Suitors still waiting.
 Night 55 — 20 rows unwoven. Suitors still waiting.
 Night 56 — 22 rows unwoven. Suitors still waiting.
+Night 57 — 24 rows unwoven. Suitors still waiting.
