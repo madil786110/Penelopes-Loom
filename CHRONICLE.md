@@ -66,3 +66,4 @@ Night 64 — 23 rows unwoven. Suitors still waiting.
 Night 65 — 20 rows unwoven. Suitors still waiting.
 Night 66 — 22 rows unwoven. Suitors still waiting.
 Night 67 — 24 rows unwoven. Suitors still waiting.
+Night 68 — 21 rows unwoven. Suitors still waiting.
