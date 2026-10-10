@@ -73,3 +73,4 @@ Night 71 — 22 rows unwoven. Suitors still waiting.
 Night 72 — 24 rows unwoven. Suitors still waiting.
 Night 73 — 21 rows unwoven. Suitors still waiting.
 Night 74 — 23 rows unwoven. Suitors still waiting.
+Night 75 — 20 rows unwoven. Suitors still waiting.
