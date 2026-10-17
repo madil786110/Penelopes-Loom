@@ -80,3 +80,4 @@ Night 78 — 21 rows unwoven. Suitors still waiting.
 Night 79 — 23 rows unwoven. Suitors still waiting.
 Night 80 — 20 rows unwoven. Suitors still waiting.
 Night 81 — 22 rows unwoven. Suitors still waiting.
+Night 82 — 24 rows unwoven. Suitors still waiting.
