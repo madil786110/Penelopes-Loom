@@ -94,3 +94,4 @@ Night 92 — 24 rows unwoven. Suitors still waiting.
 Night 93 — 21 rows unwoven. Suitors still waiting.
 Night 94 — 23 rows unwoven. Suitors still waiting.
 Night 95 — 20 rows unwoven. Suitors still waiting.
+Night 96 — 22 rows unwoven. Suitors still waiting.
