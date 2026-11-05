@@ -99,3 +99,4 @@ Night 97 — 24 rows unwoven. Suitors still waiting.
 Night 98 — 21 rows unwoven. Suitors still waiting.
 Night 99 — 23 rows unwoven. Suitors still waiting.
 Night 100 — 20 rows unwoven. Suitors still waiting.
+Night 101 — 22 rows unwoven. Suitors still waiting.
