@@ -105,3 +105,4 @@ Night 103 — 21 rows unwoven. Suitors still waiting.
 Night 104 — 23 rows unwoven. Suitors still waiting.
 Night 105 — 20 rows unwoven. Suitors still waiting.
 Night 106 — 22 rows unwoven. Suitors still waiting.
+Night 107 — 24 rows unwoven. Suitors still waiting.
