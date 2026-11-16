@@ -110,3 +110,4 @@ Night 108 — 21 rows unwoven. Suitors still waiting.
 Night 109 — 23 rows unwoven. Suitors still waiting.
 Night 110 — 20 rows unwoven. Suitors still waiting.
 Night 111 — 22 rows unwoven. Suitors still waiting.
+Night 112 — 24 rows unwoven. Suitors still waiting.
