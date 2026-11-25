@@ -119,3 +119,4 @@ Night 117 — 24 rows unwoven. Suitors still waiting.
 Night 118 — 21 rows unwoven. Suitors still waiting.
 Night 119 — 46 rows unwoven. Suitors still waiting.
 Night 120 — 60 rows unwoven. Suitors still waiting.
+Night 121 — 44 rows unwoven. Suitors still waiting.
